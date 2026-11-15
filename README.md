@@ -6,8 +6,8 @@
 
 ## 2. 실행 방법
 
-1. [Android Studio 프로젝트 ZIP](MyCarPet-AndroidStudio.zip)을 내려받아 압축을 풉니다.
-2. Android Studio의 **File → Open**에서 `settings.gradle.kts`가 있는 안쪽 **MyCarPet** 폴더를 엽니다.
+1. 이 저장소의 **Code → Download ZIP**을 선택해 소스를 내려받고 압축을 풉니다. 또는 `git clone https://github.com/sweep010101/mycarpet-dev.git`으로 받습니다.
+2. Android Studio의 **File → Open**에서 `settings.gradle.kts`가 있는 저장소 루트 폴더를 엽니다.
 3. Gradle 동기화를 완료합니다.
 4. **게임 데모:** 상단 실행 모듈 `app`, 일반 Android 에뮬레이터를 선택하고 **Run ▶**을 누릅니다.
 5. **차량 SDK 진단 앱:** 모듈 `automotive`, Pleos Connect 에뮬레이터를 선택합니다. 이 모듈은 누적 주행거리 표시용으로, 게임 화면·경험치와 아직 연결되어 있지 않습니다.
